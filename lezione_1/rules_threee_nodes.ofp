@@ -1,0 +1,6 @@
+#ARP flooding
+arp,action=flood
+#IP routing rules
+ip,nw_dst=10.0.0.1,actions=output:1
+ip,nw_dst=10.0.0.2,actions=output:2
+ip,nw_dst=10.0.0.3,actions=output:3

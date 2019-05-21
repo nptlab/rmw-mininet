@@ -1,0 +1,9 @@
+#ARP flooding
+arp,action=flood
+#IP routing rules
+# HARD TIMEOUT
+ip,nw_dst=10.0.0.2,hard_timeout=5,actions=output:2
+# IDLE TIMEOUT
+ip,nw_dst=10.0.0.1,idle_timeout=5,actions=output:1
+# IDLE TIMEOUT
+ip,nw_dst=10.0.0.3,idle_timeout=5,actions=output:3

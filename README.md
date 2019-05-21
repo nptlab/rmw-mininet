@@ -175,5 +175,4 @@ instantiating app ryu.controller.ofp_handler of OFPHandler
 
 ```
 OFPSwitchFeatures received: datapath_id=0x0000000000000001 n_buffers=256 n_tables=254 n_ports=3capabilities=0x000000c7
-``` 
-
+```  
